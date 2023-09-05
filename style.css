@@ -95,5 +95,20 @@ body{
     pointer-events: none;
 }
 
-.box form .inputBox input:valid ~  span,
-.box form .inputBox input:focus ~  span
+.box form .inputBox input:valid ~  i,
+.box form .inputBox input:focus ~  i{
+    height: 44px;
+}
+
+.box form .links
+{
+    display: flex;
+    justify-content: space-between;
+}
+
+.box form .links a{
+    margin: 10px 0;
+    font-size: 0.75em;
+    color: #8f8f8f;
+    text-decoration: none;
+}
